@@ -144,3 +144,43 @@ El desarrollo se centra en estándares modernos de la industria:
 - **Visión Comercial:** Diseño pensado para la conversión y retención del usuario.
 
 > "No se trata solo de copiar estructuras, sino de comprenderlas, adaptarlas y ejecutarlas con criterio técnico."
+
+---
+
+## 🛠️ Cómo Clonar el Repositorio y Acceder al Sitio Web
+
+Sigue estos pasos para clonar el repositorio y visualizar el sitio web en tu máquina local:
+
+### 1. Clonar el Repositorio
+
+1. Abre una terminal en tu sistema.
+2. Navega al directorio donde deseas clonar el proyecto.
+3. Ejecuta el siguiente comando:
+
+   ```bash
+   git clone https://github.com/dageorge29/DISTRITO_CERO_PROYECTO_TALENTOTECH.git
+   ```
+
+4. Ingresa al directorio del proyecto:
+
+   ```bash
+   cd DISTRITO_CERO_PROYECTO_TALENTOTECH
+   ```
+
+### 2. Acceder al Sitio Web
+
+1. Abre el archivo `index.html` en tu navegador web. Puedes hacerlo directamente desde el explorador de archivos o ejecutando el siguiente comando en la terminal:
+
+   ```bash
+   xdg-open DISTRITO_CERO/templates/index.html
+   ```
+
+2. Si prefieres usar un servidor local para visualizar el sitio, puedes usar Python:
+
+   ```bash
+   python3 -m http.server
+   ```
+
+   Luego, abre tu navegador y accede a `http://localhost:8000/DISTRITO_CERO/templates/index.html`.
+
+---
