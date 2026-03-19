@@ -13,9 +13,13 @@ Distrito CERO es una tienda online de ropa y accesorios inspirada en la estétic
 - John Esteban Ramirez
 - Cristian Londoño
 
+--- 
+
+## Cómo Clonar el Repositorio y Acceder al Sitio Web
+
+Sigue estos pasos para clonar el repositorio y visualizar el sitio web en tu máquina local:
 ### 1. Clonar el Repositorio
 
---- 
 
 1. Abre una terminal en tu sistema.
 2. Navega al directorio donde deseas clonar el proyecto.
@@ -50,7 +54,7 @@ Distrito CERO es una tienda online de ropa y accesorios inspirada en la estétic
 ---
 ---
 
-## 🚀 Concepto y Visión
+## Concepto y Visión
 
 El objetivo principal es romper el esquema tradicional de los e-commerce de moda. Distrito CERO no es solo una tienda de ropa; es una plataforma diseñada bajo principios de arquitectura estructurada y escalabilidad, emulando la navegación de marcas líderes en tecnología y lifestyle.
 
@@ -74,7 +78,7 @@ Para la construcción de este ecosistema visual, se analizaron los siguientes re
 
 ---
 
-## 🛠️ Estructura del Sitio
+## Estructura del Sitio
 
 1. **Header (Navegación)**
    - Logotipo de marca.
@@ -89,7 +93,7 @@ Para la construcción de este ecosistema visual, se analizaron los siguientes re
 
 ---
 
-## 🌐 Páginas y Funcionalidades
+## Páginas y Funcionalidades
 
 El proyecto incluye las siguientes páginas y características:
 
@@ -119,7 +123,7 @@ El proyecto incluye las siguientes páginas y características:
 
 ---
 
-## 🎨 Identidad Visual
+## Identidad Visual
 
 La paleta de colores fue seleccionada para evocar una sensación urbana y tecnológica:
 
@@ -143,7 +147,7 @@ La paleta de colores fue seleccionada para evocar una sensación urbana y tecnol
 
 ---
 
-## 🎨 Estilos y Diseño
+## Estilos y Diseño
 
 El diseño utiliza un enfoque modular y responsivo:
 
@@ -161,7 +165,7 @@ El diseño utiliza un enfoque modular y responsivo:
 
 ---
 
-## ⚙️ Enfoque Técnico
+## Enfoque Técnico
 
 El desarrollo se centra en estándares modernos de la industria:
 
@@ -172,7 +176,7 @@ El desarrollo se centra en estándares modernos de la industria:
 
 ---
 
-## 📈 Objetivos Alcanzados
+## Objetivos Alcanzados
 
 - **Análisis de Mercado:** Adaptación de conceptos tecnológicos a un nicho textil.
 - **Criterio Técnico:** Ejecución de una arquitectura web organizada y profesional.
@@ -182,7 +186,5 @@ El desarrollo se centra en estándares modernos de la industria:
 
 ---
 
-## 🛠️ Cómo Clonar el Repositorio y Acceder al Sitio Web
 
-Sigue estos pasos para clonar el repositorio y visualizar el sitio web en tu máquina local:
 
