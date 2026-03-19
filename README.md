@@ -12,6 +12,7 @@ Distrito CERO es una tienda online de ropa y accesorios inspirada en la estétic
 - Jorge Andrés Murillo
 - John Esteban Ramirez
 - Cristian Londoño
+- Daniel Felipe Campillo
 
 --- 
 
