@@ -1,4 +1,4 @@
-# Distrito CERO — E-Commerce 🏷️💻
+# Distrito CERO — E-Commerce 
 
 Donde la tecnología encuentra la moda urbana.
 
@@ -66,7 +66,7 @@ El objetivo principal es romper el esquema tradicional de los e-commerce de moda
 
 ---
 
-## 🔍 Referencias de Diseño
+## Referencias de Diseño
 
 Para la construcción de este ecosistema visual, se analizaron los siguientes referentes:
 
