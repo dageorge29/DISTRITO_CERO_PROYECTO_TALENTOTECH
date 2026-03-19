@@ -8,7 +8,7 @@ Distrito CERO es una tienda online de ropa y accesorios inspirada en la estétic
 
 ---
 
-## 👥 Integrantes (Grupo 6)
+## Integrantes (Grupo 6)
 - Jorge Andrés Murillo
 - John Esteban Ramirez
 - Cristian Londoño
