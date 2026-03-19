@@ -15,6 +15,8 @@ Distrito CERO es una tienda online de ropa y accesorios inspirada en la estétic
 
 ### 1. Clonar el Repositorio
 
+--- 
+
 1. Abre una terminal en tu sistema.
 2. Navega al directorio donde deseas clonar el proyecto.
 3. Ejecuta el siguiente comando:
