@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sostenibilidad</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="header-nav">
+            <a href="index.html" class="brand">
+                <img src="../static/icon/Logo2.png" alt="Logo Distrito CERO" class="brand-logo">
+                <span class="brand-name">DISTRITO CERO</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../templates/Colecciones.html">Colecciones</a></li>
+                <li><a href="../templates/Novedades.html">Novedades</a></li>
+                <li><a href="../templates/Sostenibilidad.html">Sostenibilidad</a></li>
+                <li><a href="../templates/About.html">Nosotros</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn btn-primary">Comprar</button>
+                <a href="#" class="icon-btn" aria-label="Buscar">🔍</a>
+                <a href="#" class="icon-btn" aria-label="Cuenta">👤</a>
+                <a href="#" class="icon-btn" aria-label="Carrito">🛒</a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+</body>
+</html>
+<main class="sustainability-main">
+    <!-- Hero Section -->
+    <section class="hero-sustainability">
+        <div class="hero-content">
+            <h1>Nuestro Compromiso con la Sostenibilidad</h1>
+            <p>En DISTRITO CERO, creemos que la moda responsable es el futuro</p>
+        </div>
+    </section>
+
+    <!-- Pillars Section -->
+    <section class="sustainability-pillars">
+        <h2>Nuestros Pilares</h2>
+        <div class="pillars-grid">
+            <div class="pillar-card">
+                <div class="pillar-icon">🌱</div>
+                <h3>Materiales Orgánicos</h3>
+                <p>Utilizamos algodón orgánico certificado y fibras recicladas en 85% de nuestra producción</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">♻️</div>
+                <h3>Producción Responsable</h3>
+                <p>Manufactura local en Colombia con estándares de comercio justo y salarios dignos</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">🌍</div>
+                <h3>Huella de Carbono</h3>
+                <p>Neutralidad de carbono en logística y empaque 100% biodegradable</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">👥</div>
+                <h3>Impacto Social</h3>
+                <p>5% de ganancias destinadas a programas de empoderamiento comunitario</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section class="materials-section">
+        <h2>Nuestros Materiales</h2>
+        <div class="materials-container">
+            <div class="material-item">
+                <div class="material-image cotton"></div>
+                <h4>Algodón Orgánico</h4>
+                <p>Sin pesticidas ni químicos dañinos. Certificado GOTS.</p>
+                <span class="percentage">50%</span>
+            </div>
+            <div class="material-item">
+                <div class="material-image recycled"></div>
+                <h4>Fibras Recicladas</h4>
+                <p>Poliéster de botellas plásticas recuperadas del océano.</p>
+                <span class="percentage">35%</span>
+            </div>
+            <div class="material-item">
+                <div class="material-image linen"></div>
+                <h4>Lino y Cáñamo</h4>
+                <p>Cultivos sostenibles que requieren mínima agua y pesticidas.</p>
+                <span class="percentage">15%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Statistics -->
+    <section class="impact-stats">
+        <div class="stat-card">
+            <h3>500+</h3>
+            <p>Empleos generados en comunidades locales</p>
+        </div>
+        <div class="stat-card">
+            <h3>120 Ton</h3>
+            <p>Plástico reciclado desde 2021</p>
+        </div>
+        <div class="stat-card">
+            <h3>2.5M L</h3>
+            <p>Agua ahorrada anualmente</p>
+        </div>
+        <div class="stat-card">
+            <h3>100%</h3>
+            <p>Empaque compostable</p>
+        </div>
+    </section>
+
+    <!-- Transparency Section -->
+    <section class="transparency">
+        <h2>Transparencia y Certificaciones</h2>
+        <div class="certifications">
+            <div class="cert-badge">GOTS</div>
+            <div class="cert-badge">Fairtrade</div>
+            <div class="cert-badge">B Corporation</div>
+            <div class="cert-badge">Carbon Neutral</div>
+        </div>
+        <p>Descarga nuestro <a href="#" class="link">Reporte de Sostenibilidad 2024</a></p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-sustainability">
+        <h2>Se Parte del Cambio</h2>
+        <p>Cada compra contribuye a un futuro más sostenible</p>
+        <button class="btn btn-primary" onclick="scrollToCollections()">Explorar Colección Sostenible</button>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2026 DISTRITO CERO. Moda Sostenible Colombiana.</p>
+</footer>
+
+<script>
+    function scrollToCollections() {
+        window.location.href = '../templates/Colecciones.html';
+    }
+
+    // Animation on scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.pillar-card, .material-item, .stat-card').forEach(el => {
+        observer.observe(el);
+    });
+</script>
