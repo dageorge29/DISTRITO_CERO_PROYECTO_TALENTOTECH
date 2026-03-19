@@ -368,7 +368,7 @@ button, input {
 
 /* Footer */
 .site-footer {
-    display: flex;
+
     justify-content: center;
     padding: 56px 22px 38px;
     background: rgba(0, 0, 0, 0.6);
@@ -413,7 +413,6 @@ button, input {
 }
 
 .social-links li a {
-    
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -422,11 +421,13 @@ button, input {
 .footer-btm {
     display: flex;
     justify-content: center;
-    text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding-top: 18px;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.68);
+    width: 100%;
+    max-width: var(--max);
+    margin: 0 auto;
 }
 
 /* Responsive */

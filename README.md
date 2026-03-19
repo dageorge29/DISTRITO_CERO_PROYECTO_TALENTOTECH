@@ -54,6 +54,36 @@ Para la construcción de este ecosistema visual, se analizaron los siguientes re
 
 ---
 
+## 🌐 Páginas y Funcionalidades
+
+El proyecto incluye las siguientes páginas y características:
+
+1. **Inicio (index.html):**
+   - Hero con mensaje principal y botones de acción.
+   - Secciones destacadas: Colecciones, Novedades y Sostenibilidad.
+   - Formulario de suscripción al boletín.
+
+2. **Colecciones (Colecciones.html):**
+   - Presentación de las colecciones más recientes.
+   - Diseño en cuadrícula para destacar productos.
+
+3. **Novedades (Novedades.html):**
+   - Últimos lanzamientos y productos destacados.
+   - Enlaces a colecciones específicas.
+
+4. **Sostenibilidad (Sostenibilidad.html):**
+   - Detalle de los pilares de sostenibilidad.
+   - Información sobre materiales y estadísticas de impacto.
+
+5. **Servicios (servicios.html):**
+   - Descripción de servicios como personalización, asesoría y entrega express.
+   - Interactividad con tarjetas dinámicas.
+
+6. **Acerca de (About.html):**
+   - Información sobre la misión y visión de la marca.
+
+---
+
 ## 🎨 Identidad Visual
 
 La paleta de colores fue seleccionada para evocar una sensación urbana y tecnológica:
@@ -75,6 +105,24 @@ La paleta de colores fue seleccionada para evocar una sensación urbana y tecnol
   --bg-minimal: #F9F9F9;
 }
 ```
+
+---
+
+## 🎨 Estilos y Diseño
+
+El diseño utiliza un enfoque modular y responsivo:
+
+- **Paleta de colores:**
+  - Fondo oscuro con acentos vibrantes para destacar elementos clave.
+  - Gradientes y sombras para un efecto moderno.
+
+- **CSS Avanzado:**
+  - Uso de variables CSS para consistencia en colores y estilos.
+  - Flexbox y Grid Layout para una disposición adaptable.
+
+- **Interactividad:**
+  - Animaciones suaves en tarjetas y botones.
+  - Funcionalidad de menú dinámico en dispositivos móviles.
 
 ---
 
