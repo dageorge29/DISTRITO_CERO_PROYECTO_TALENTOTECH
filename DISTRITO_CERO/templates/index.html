@@ -8,45 +8,178 @@
     <link rel="stylesheet" href="../static/css/styles.css">
 </head>
 <body>
-    <header>
-        
-        <!-- nav 1 -->
-        <nav>
-            <ul class="main-nav1">
-                <li><a href="../templates/index.html">Inicio</a></li>
-                <li><a href="../templates/servicios.html">Servicios</a></li>
-                <li><a href="../templates/contacto.html">Contacto</a></li>
+    <header class="site-header">
+        <nav class="header-nav">
+            <a href="index.html" class="brand">
+                <img src="../static/icon/Logo2.png" alt="Logo Distrito CERO" class="brand-logo">
+                <span class="brand-name">DISTRITO CERO</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#colecciones">Colecciones</a></li>
+                <li><a href="#novedades">Novedades</a></li>
+                <li><a href="#sostenibilidad">Sostenibilidad</a></li>
+                <li><a href="#about">Nosotros</a></li>
             </ul>
-        </nav>
-        
-        <!-- imagen-logo -->
-        <div>
-            <img src="../static/icon/Logo2.png" alt="" type= "img/png">
-        </div>
-        
-        <!-- nav 2 -->
-        <nav >
-            <ul class="main-nav2">
-                <li class="li1-nav2"><a href="">🛒</a></li> <!-- carrito -->
-                <li class="li2-nav2"><a href="">📍</a></li> <!-- ubicacion -->
-                <li class="li3-nav2"><a href="">👤</a></li>  <!-- login -->
-            </ul>
+
+            <div class="nav-actions">
+                <button class="btn btn-primary">Comprar</button>
+                <a href="#" class="icon-btn" aria-label="Buscar">🔍</a>
+                <a href="#" class="icon-btn" aria-label="Cuenta">👤</a>
+                <a href="#" class="icon-btn" aria-label="Carrito">🛒</a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </nav>
     </header>
 
-    <!-- main -->
     <main>
-        <div class="titulo">
-            <h1>Distrito CERO</h1>
-        </div>
-        
-        <section>
-            
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Moda urbana con propósito</h1>
+                <p>Diseños exclusivos hechos en Colombia. Calidad premium, producción responsable.</p>
+                <div class="hero-ctas">
+                    <a href="#colecciones" class="btn btn-primary">Ver colección</a>
+                    <a href="#novedades" class="btn btn-secondary">Ver novedades</a>
+                </div>
+            </div>
         </section>
-        <section>
 
+        <section id="colecciones" class="grid-section">
+            <header class="section-header">
+                <h2>Colecciones destacadas</h2>
+                <p>Explora nuestros lanzamientos más recientes y piezas que marcan tendencia.</p>
+            </header>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Colección cápsula" class="card-img">
+                    <div class="card-body">
+                        <h3>Edición limitada</h3>
+                        <p>Prendas únicas con materiales sostenibles y diseño local.</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Streetwear" class="card-img">
+                    <div class="card-body">
+                        <h3>Streetwear</h3>
+                        <p>Looks versátiles para el día a día y la ciudad.</p>
+                        <a href="#" class="card-link">Ver más</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Accesorios" class="card-img">
+                    <div class="card-body">
+                        <h3>Accesorios</h3>
+                        <p>Detalles que elevan cualquier outfit.</p>
+                        <a href="#" class="card-link">Descubrir</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="novedades" class="grid-section">
+            <header class="section-header">
+                <h2>Novedades</h2>
+                <p>Lo último que llega a Distrito CERO. Colecciones y drops que deberías seguir de cerca.</p>
+            </header>
+
+            <div class="card-grid">
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Nueva colección" class="card-img">
+                    <div class="card-body">
+                        <h3>Drop urbano</h3>
+                        <p>Un mix fresco de colores, estampados y cortes pensados para el día a día.</p>
+                        <a href="#" class="card-link">Ver colección</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Nueva gorra" class="card-img">
+                    <div class="card-body">
+                        <h3>Accesorios</h3>
+                        <p>Gorras, bolsas y más para complementar tu estilo.</p>
+                        <a href="#" class="card-link">Ver accesorios</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="../static/img/distrito_Cero1.png" alt="Novedades" class="card-img">
+                    <div class="card-body">
+                        <h3>Próximamente</h3>
+                        <p>Suscríbete para conocer cada lanzamiento antes que nadie.</p>
+                        <a href="#about" class="card-link">Suscribirme</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="sostenibilidad" class="info-section">
+            <div class="info-content">
+                <h2>Compromiso con el planeta</h2>
+                <p>Usamos materiales orgánicos, procesos de bajo impacto y apoyamos productores locales para crear moda responsable.</p>
+                <a href="#" class="btn btn-outline">Conoce más</a>
+            </div>
+            <div class="info-image">
+                <img src="../static/img/distrito_Cero1.png" alt="Material sostenible">
+            </div>
+        </section>
+
+        <section id="about" class="cta-section">
+            <div class="cta-content">
+                <h2>Únete a Distrito CERO</h2>
+                <p>Recibe novedades, lanzamientos y descuentos exclusivos directo en tu correo.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" aria-label="Correo electrónico">
+                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                </form>
+            </div>
         </section>
     </main>
-    
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>DISTRITO CERO</h3>
+                <p>Moda urbana con propósito. Hecho con ❤️ en Colombia.</p>
+            </div>
+            <div>
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#colecciones">Colecciones</a></li>
+                    <li><a href="#novedades">Novedades</a></li>
+                    <li><a href="#sostenibilidad">Sostenibilidad</a></li>
+                    <li><a href="#about">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Síguenos</h4>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-btm">
+            <p>© 2026 DISTRITO CERO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav-links');
+        toggle?.addEventListener('click', () => {
+            nav?.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
