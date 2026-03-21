@@ -5,113 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios - Distrito Cero</title>
     <link rel="stylesheet" href="../static/css/styles.css">
-    <style>
 
-    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🔥 Servicios Distrito Cero</h1>
-            <p class="subtitle">Ropa urbana, estilo y actitud</p>
-        </header>
+    <header class="site-header">
+        <nav class="header-nav">
+            <a href="index.html" class="brand">
+                <img src="../static/icon/Logo2.png" alt="Logo Distrito CERO" class="brand-logo">
+                <span class="brand-name">DISTRITO CERO</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../templates/Colecciones.html">Colecciones</a></li>  
+                <li><a href="../templates/Novedades.html">Novedades</a></li>
+                <li><a href="../templates/Sostenibilidad.html">Sostenibilidad</a></li>
+                <li><a href="../templates/About.html">Nosotros</a></li>
+            </ul>
 
-        <div class="servicios-grid">
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">👕</div>
-                <h2>Colecciones Personalizadas</h2>
-                <p>Diseña tu look único con nuestras prendas exclusivas</p>
-                <ul>
-                    <li>Estampados custom</li>
-                    <li>Bordados personalizados</li>
-                    <li>Asesoría de estilo</li>
-                </ul>
-                <button class="btn-info">Explorar</button>
+            <div class="nav-actions">
+                <button class="btn btn-primary">Comprar</button>
+                <a href="" class="icon-btn" aria-label="Buscar">🔍</a>
+                <a href="#" class="icon-btn" aria-label="Cuenta">👤</a>
+                <a href="#" class="icon-btn" aria-label="Carrito">🛒</a>
             </div>
 
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">🛍️</div>
-                <h2>Compras Online</h2>
-                <p>Acceso 24/7 a toda nuestra colección</p>
-                <ul>
-                    <li>Envíos rápidos</li>
-                    <li>Devoluções gratis</li>
-                    <li>Reembolso garantizado</li>
-                </ul>
-                <button class="btn-info">Comprar Ahora</button>
-            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
 
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">👗</div>
-                <h2>Asesoría de Moda</h2>
-                <p>Expertos en tendencias urbanas te guían</p>
-                <ul>
-                    <li>Consulta personalizada</li>
-                    <li>Combinaciones outfit</li>
-                    <li>Sesión virtual o presencial</li>
-                </ul>
-                <button class="btn-info">Agendar</button>
-            </div>
 
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">🚚</div>
-                <h2>Entrega Express</h2>
-                <p>Recibe tu pedido en tiempo récord</p>
-                <ul>
-                    <li>Mismo día en CABA</li>
-                    <li>Seguimiento en vivo</li>
-                    <li>Sin costo adicional</li>
-                </ul>
-                <button class="btn-info">Solicitar</button>
-            </div>
 
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">💳</div>
-                <h2>Planes de Pago</h2>
-                <p>Flexibilidad total en tus compras</p>
-                <ul>
-                    <li>Hasta 12 cuotas sin interés</li>
-                    <li>Múltiples métodos de pago</li>
-                    <li>Promociones exclusivas</li>
-                </ul>
-                <button class="btn-info">Ver Planes</button>
-            </div>
 
-            <div class="servicio-card" onclick="toggleService(this)">
-                <div class="servicio-icon">🎁</div>
-                <h2>Club de Membresía</h2>
-                <p>Beneficios VIP para clientes fieles</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>DISTRITO CERO</h3>
+                <p>Moda urbana con propósito. Hecho con ❤️ en Colombia.</p>
+            </div>
+            <div>
+                <h4>Enlaces</h4>
                 <ul>
-                    <li>Descuentos permanentes</li>
-                    <li>Acceso anticipado a colecciones</li>
-                    <li>Regalos sorpresa</li>
+                    <li><a href="../templates/Colecciones.html">Colecciones</a></li>
+                    <li><a href="../templates/Novedades.html">Novedades</a></li>
+                    <li><a href="../templates/Sostenibilidad.html">Sostenibilidad</a></li>
+                    <li><a href="../templates/">Contacto</a></li>
+                    <li><a href="../templates/servicios.html">Servicios</a></li>
                 </ul>
-                <button class="btn-info">Unirme</button>
+            </div>
+            <div>
+                <h4>Síguenos</h4>
+                <ul class="social-links">
+                    <li><a href="#">📷 Instagram</a></li>
+                    <li><a href="#">📘 Facebook</a></li>
+                    <li><a href="#">🎵 TikTok</a></li>
+                </ul>
             </div>
         </div>
-
-        <footer>
-            <p>&copy; 2024 Distrito Cero - Tu estilo, nuestra pasión</p>
-        </footer>
-    </div>
-
-    <script>
-        function toggleService(element) {
-            const allCards = document.querySelectorAll('.servicio-card');
-            allCards.forEach(card => {
-                if (card !== element) {
-                    card.classList.remove('active');
-                }
-            });
-            element.classList.toggle('active');
-        }
-
-        document.querySelectorAll('.btn-info').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                alert('¡Gracias por tu interés! Estamos en contacto pronto.');
-            });
-        });
-    </script>
+        <div class="footer-btm">
+            <p>© 2026 DISTRITO CERO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
